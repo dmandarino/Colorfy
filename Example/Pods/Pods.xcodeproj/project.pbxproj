@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160162CC4BCD834CDD4DB1A8B94E036D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1B971DBFC15EC756A07F2372CE7155CE /* Pods-Colorfy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69602982A14A48A33204CA69D241BAD7 /* Pods-Colorfy_Tests-dummy.m */; };
+		22CD52054D1C679CA3E42201669D07EA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */; };
+		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
+		2D0266FF12F5406274CA15E20BE9CF05 /* Pods-Colorfy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A25967ACBA29DEB23AF2256B84F9C5 /* Pods-Colorfy_Example-dummy.m */; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3B1A64F151BDD11B17D492EDF1FB44FE /* Colorfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		56761DBB8F9E585B28A79EB0D60B4C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BD3829FBCD55757A480B033D6C9FD1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		725E3D8C8124CACECE8386216EE98C64 /* Pods-Colorfy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DE5379099A44FA7DF4A0C4D3217A5D /* Pods-Colorfy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8CA11A7C5A4577AD3D07B2805BBCD182 /* Pods-Colorfy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0EB2410708939E4E0E8A8508046C16 /* Pods-Colorfy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939EE02E93510071C27D4739E676FB57 /* Colorfy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */; };
+		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91C04CBF1D4DA02DC5885AC36F0638E /* Colorfy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1131BDC03D0B936FCBEA8E496D8F9C0 /* Colorfy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
+		FA425943D10236A1014CEFF1133F9CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68CA52EFF960FE9A1857005BBBE6008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC1DD635F6F91BF6F745ADA1526A60C;
+			remoteInfo = "Pods-Colorfy_Example";
+		};
+		8276F9E4A48471ED64B4A6DA28CC3F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		A709AE216CEA737FD90C1B8A614DC002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01F31B368CB2E55025E045436DAD531;
+			remoteInfo = "Colorfy-Colorfy";
+		};
+		ED12B0F7CE703B1ECE63B4ED21E4EDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4BE3361A943AC2DE317D577E53E4CE;
+			remoteInfo = Colorfy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = Colorfy/Colors.xcassets; sourceTree = "<group>"; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		22BE25D9F88C04065D8863DF297DB6A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C6A7E9D6865592601939F18F66D165 /* ResourceBundle-Colorfy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Colorfy-Info.plist"; sourceTree = "<group>"; };
+		28CBBA56F07250AA910FCFEA9047F534 /* Pods-Colorfy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0EB2410708939E4E0E8A8508046C16 /* Pods-Colorfy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colorfy_Example-umbrella.h"; sourceTree = "<group>"; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		30F1B92247BD42E82B6B0BEA229B68DE /* Pods-Colorfy_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Tests-resources.sh"; sourceTree = "<group>"; };
+		32A25967ACBA29DEB23AF2256B84F9C5 /* Pods-Colorfy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Colorfy_Example-dummy.m"; sourceTree = "<group>"; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3E0CEF7E6C935F46C6D3DC1FCAB810F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400E61D0596954AFDAEB0B4342C5F804 /* Pods-Colorfy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		64BA37EFE45821A8D6DBB8C509DA7FE3 /* Pods-Colorfy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colorfy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69602982A14A48A33204CA69D241BAD7 /* Pods-Colorfy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Colorfy_Tests-dummy.m"; sourceTree = "<group>"; };
+		70F57316081EC01135ECDF6896E328F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72B86B60D8DB00E2DD9EFF0D17BA6A06 /* Pods-Colorfy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colorfy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colorfy-dummy.m"; sourceTree = "<group>"; };
+		78D247BC2C3A01372800B9C576E4B45A /* Pods-Colorfy_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Example-resources.sh"; sourceTree = "<group>"; };
+		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		7ED9FA82BD3435E1885B381885E594AB /* Pods-Colorfy_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7FF5B962F626C8E9EAD1C1371A67F620 /* Pods-Colorfy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colorfy.framework; path = Colorfy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8DF2075DB1B158AC72B89D1A17FD5083 /* Pods-Colorfy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colorfy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FFCFD9B3F94CC3A845678EBCED7A2B4 /* Colorfy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colorfy.modulemap; sourceTree = "<group>"; };
+		924EBF7AC143AD65987A94D8AA1051F0 /* Pods-Colorfy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Colorfy_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A6D285C7B24E5A59ACD03561582B00F9 /* Pods-Colorfy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Colorfy_Tests.modulemap"; sourceTree = "<group>"; };
+		AA7C947AF6407E7AD5926464C6440533 /* Pods-Colorfy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E4FF9161EAA91E8017C61A53CDD927 /* Pods_Colorfy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Colorfy_Example.framework; path = "Pods-Colorfy_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AAE8FD6AE52367048FBDC34182BCBB /* Colorfy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Colorfy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3005461CA492B6D01D8CD9ACF9D277F /* Pods_Colorfy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Colorfy_Tests.framework; path = "Pods-Colorfy_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DE5379099A44FA7DF4A0C4D3217A5D /* Pods-Colorfy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colorfy_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Colorfy.bundle; path = "Colorfy-Colorfy.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD63A4D57917A01CBF84B62BFE7A80B6 /* Colorfy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-prefix.pch"; sourceTree = "<group>"; };
+		D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Colorfy.swift; path = Colorfy/Colorfy.swift; sourceTree = "<group>"; };
+		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DC1B8A4CC48F29A618BE6DD70B2443CD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E74F5F63EBBACD018D4604E5471CBDB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-umbrella.h"; sourceTree = "<group>"; };
+		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		F4A07205AB2FC8A6A2F429C0F17ACFC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C36425C7E6FB388D8CCA7B7BD695B /* Pods-Colorfy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colorfy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colorfy.xcconfig; sourceTree = "<group>"; };
+		FEDDDE640724A3095E93E26B98719491 /* Pods-Colorfy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */,
+				293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */,
+				F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */,
+				9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7186A9B504DB11A0C2343F9B85E8C131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA425943D10236A1014CEFF1133F9CFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8D6622F661D5D58F9D66A59E45A019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E9F992363885D1FAAD31AF2A068AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160162CC4BCD834CDD4DB1A8B94E036D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF248387D9D566671FC9C9F6D8DEAA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56761DBB8F9E585B28A79EB0D60B4C20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
+				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
+				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
+				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
+				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
+				67E276593855381568F725E69496F29C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		3A94911FB6ABE96195CF6FC0FE6E441A /* Pods-Colorfy_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CEF7E6C935F46C6D3DC1FCAB810F8 /* Info.plist */,
+				924EBF7AC143AD65987A94D8AA1051F0 /* Pods-Colorfy_Example.modulemap */,
+				64BA37EFE45821A8D6DBB8C509DA7FE3 /* Pods-Colorfy_Example-acknowledgements.markdown */,
+				FC9C36425C7E6FB388D8CCA7B7BD695B /* Pods-Colorfy_Example-acknowledgements.plist */,
+				32A25967ACBA29DEB23AF2256B84F9C5 /* Pods-Colorfy_Example-dummy.m */,
+				FEDDDE640724A3095E93E26B98719491 /* Pods-Colorfy_Example-frameworks.sh */,
+				78D247BC2C3A01372800B9C576E4B45A /* Pods-Colorfy_Example-resources.sh */,
+				2A0EB2410708939E4E0E8A8508046C16 /* Pods-Colorfy_Example-umbrella.h */,
+				28CBBA56F07250AA910FCFEA9047F534 /* Pods-Colorfy_Example.debug.xcconfig */,
+				7FF5B962F626C8E9EAD1C1371A67F620 /* Pods-Colorfy_Example.release.xcconfig */,
+			);
+			name = "Pods-Colorfy_Example";
+			path = "Target Support Files/Pods-Colorfy_Example";
+			sourceTree = "<group>";
+		};
+		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
+				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
+				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
+				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5337C4FEC97F19B715182B74999C11DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */,
+				80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */,
+				DC1B8A4CC48F29A618BE6DD70B2443CD /* FBSnapshotTestCase.framework */,
+				B0E4FF9161EAA91E8017C61A53CDD927 /* Pods_Colorfy_Example.framework */,
+				B3005461CA492B6D01D8CD9ACF9D277F /* Pods_Colorfy_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAE6175CEF25547FE3DD3254DA18D4B /* Pods-Colorfy_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A07205AB2FC8A6A2F429C0F17ACFC8 /* Info.plist */,
+				A6D285C7B24E5A59ACD03561582B00F9 /* Pods-Colorfy_Tests.modulemap */,
+				72B86B60D8DB00E2DD9EFF0D17BA6A06 /* Pods-Colorfy_Tests-acknowledgements.markdown */,
+				8DF2075DB1B158AC72B89D1A17FD5083 /* Pods-Colorfy_Tests-acknowledgements.plist */,
+				69602982A14A48A33204CA69D241BAD7 /* Pods-Colorfy_Tests-dummy.m */,
+				7ED9FA82BD3435E1885B381885E594AB /* Pods-Colorfy_Tests-frameworks.sh */,
+				30F1B92247BD42E82B6B0BEA229B68DE /* Pods-Colorfy_Tests-resources.sh */,
+				B3DE5379099A44FA7DF4A0C4D3217A5D /* Pods-Colorfy_Tests-umbrella.h */,
+				AA7C947AF6407E7AD5926464C6440533 /* Pods-Colorfy_Tests.debug.xcconfig */,
+				400E61D0596954AFDAEB0B4342C5F804 /* Pods-Colorfy_Tests.release.xcconfig */,
+			);
+			name = "Pods-Colorfy_Tests";
+			path = "Target Support Files/Pods-Colorfy_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B1603709AE9B757A6469C5AF68BA3D45 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				5337C4FEC97F19B715182B74999C11DD /* Products */,
+				C88BFDE527B28701EEC61784A945DD28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA703FABB0722C42A6D4C9D75EB6E66 /* Colorfy */ = {
+			isa = PBXGroup;
+			children = (
+				D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */,
+				D4208C7DDADC368AA07CAC7B5F36AF7E /* Extensions */,
+				EC35023CF5588DFAC18104070B4F95B6 /* Pod */,
+				9067AA2A57C6F143918A852A372379E4 /* Resources */,
+				8FC2A186F17C70609248890CFF6D9827 /* Support Files */,
+			);
+			name = Colorfy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8FC2A186F17C70609248890CFF6D9827 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FFCFD9B3F94CC3A845678EBCED7A2B4 /* Colorfy.modulemap */,
+				FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */,
+				73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */,
+				CD63A4D57917A01CBF84B62BFE7A80B6 /* Colorfy-prefix.pch */,
+				EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */,
+				22BE25D9F88C04065D8863DF297DB6A4 /* Info.plist */,
+				27C6A7E9D6865592601939F18F66D165 /* ResourceBundle-Colorfy-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Colorfy";
+			sourceTree = "<group>";
+		};
+		9067AA2A57C6F143918A852A372379E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B1603709AE9B757A6469C5AF68BA3D45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA703FABB0722C42A6D4C9D75EB6E66 /* Colorfy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C88BFDE527B28701EEC61784A945DD28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A94911FB6ABE96195CF6FC0FE6E441A /* Pods-Colorfy_Example */,
+				5DAE6175CEF25547FE3DD3254DA18D4B /* Pods-Colorfy_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4208C7DDADC368AA07CAC7B5F36AF7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */,
+			);
+			name = Extensions;
+			path = Colorfy/Extensions;
+			sourceTree = "<group>";
+		};
+		EC35023CF5588DFAC18104070B4F95B6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAE8FD6AE52367048FBDC34182BCBB /* Colorfy.podspec */,
+				70F57316081EC01135ECDF6896E328F8 /* LICENSE */,
+				E74F5F63EBBACD018D4604E5471CBDB6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42987DF797775BA18E2A6E9C35C43A2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91C04CBF1D4DA02DC5885AC36F0638E /* Colorfy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
+				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
+				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
+				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
+				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
+				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CF09E3B8D824480CFA6FE1B095538C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA11A7C5A4577AD3D07B2805BBCD182 /* Pods-Colorfy_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB555A5C6E9628C9A129443706BB4288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725E3D8C8124CACECE8386216EE98C64 /* Pods-Colorfy_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		130C9D320FE033DF1AB527002C7720FA /* Pods-Colorfy_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADF855ED78EB799B915D31ECDB04D0 /* Build configuration list for PBXNativeTarget "Pods-Colorfy_Tests" */;
+			buildPhases = (
+				CB555A5C6E9628C9A129443706BB4288 /* Headers */,
+				B8AEF936E88E5E46371949B00A854D36 /* Sources */,
+				7186A9B504DB11A0C2343F9B85E8C131 /* Frameworks */,
+				46207F2C0FBBC6A81A94334E81E88FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCACC8B6A8B448EBDC1EB67A561C86B4 /* PBXTargetDependency */,
+				3E8DCBCC1F86F06793D1961760DE891C /* PBXTargetDependency */,
+			);
+			name = "Pods-Colorfy_Tests";
+			productName = "Pods-Colorfy_Tests";
+			productReference = B3005461CA492B6D01D8CD9ACF9D277F /* Pods_Colorfy_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B4053B688AE3BDC78839A8C01A2289 /* Build configuration list for PBXNativeTarget "Colorfy" */;
+			buildPhases = (
+				42987DF797775BA18E2A6E9C35C43A2C /* Headers */,
+				65CB77FCF2B443F2C4CA6AFCEC6893CB /* Sources */,
+				D81E9F992363885D1FAAD31AF2A068AD /* Frameworks */,
+				48613EB9478A11DAC3445A619F335FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E121ECEFF8E162ABE9BFA7F771413F95 /* PBXTargetDependency */,
+			);
+			name = Colorfy;
+			productName = Colorfy;
+			productReference = 80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
+				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
+				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
+				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = DC1B8A4CC48F29A618BE6DD70B2443CD /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC1DD635F6F91BF6F745ADA1526A60C /* Pods-Colorfy_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488A41EEF8EAC262C9F9D62098695673 /* Build configuration list for PBXNativeTarget "Pods-Colorfy_Example" */;
+			buildPhases = (
+				B2CF09E3B8D824480CFA6FE1B095538C /* Headers */,
+				44658B8D5164D479C35BF2BA29978D41 /* Sources */,
+				EF248387D9D566671FC9C9F6D8DEAA87 /* Frameworks */,
+				1FB91EE434D807008753C97AC8EDD762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2131499DEFEBA280FFF826C556C66463 /* PBXTargetDependency */,
+			);
+			name = "Pods-Colorfy_Example";
+			productName = "Pods-Colorfy_Example";
+			productReference = B0E4FF9161EAA91E8017C61A53CDD927 /* Pods_Colorfy_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C901E4F9A4549FA3089ECC46ABD65D2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */;
+			buildPhases = (
+				FC22B5D2C55453BB7340D2ABA3FB7CBA /* Sources */,
+				BF8D6622F661D5D58F9D66A59E45A019 /* Frameworks */,
+				ADC43872B3BBAC280CAC0C33C8E1420D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colorfy-Colorfy";
+			productName = "Colorfy-Colorfy";
+			productReference = BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5337C4FEC97F19B715182B74999C11DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */,
+				C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */,
+				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
+				AAC1DD635F6F91BF6F745ADA1526A60C /* Pods-Colorfy_Example */,
+				130C9D320FE033DF1AB527002C7720FA /* Pods-Colorfy_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB91EE434D807008753C97AC8EDD762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46207F2C0FBBC6A81A94334E81E88FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48613EB9478A11DAC3445A619F335FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1131BDC03D0B936FCBEA8E496D8F9C0 /* Colorfy.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC43872B3BBAC280CAC0C33C8E1420D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CD52054D1C679CA3E42201669D07EA /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44658B8D5164D479C35BF2BA29978D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0266FF12F5406274CA15E20BE9CF05 /* Pods-Colorfy_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
+				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
+				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
+				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
+				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
+				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
+				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CB77FCF2B443F2C4CA6AFCEC6893CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939EE02E93510071C27D4739E676FB57 /* Colorfy-dummy.m in Sources */,
+				3B1A64F151BDD11B17D492EDF1FB44FE /* Colorfy.swift in Sources */,
+				62BD3829FBCD55757A480B033D6C9FD1 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AEF936E88E5E46371949B00A854D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B971DBFC15EC756A07F2372CE7155CE /* Pods-Colorfy_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC22B5D2C55453BB7340D2ABA3FB7CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2131499DEFEBA280FFF826C556C66463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colorfy;
+			target = 8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */;
+			targetProxy = ED12B0F7CE703B1ECE63B4ED21E4EDC7 /* PBXContainerItemProxy */;
+		};
+		3E8DCBCC1F86F06793D1961760DE891C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Colorfy_Example";
+			target = AAC1DD635F6F91BF6F745ADA1526A60C /* Pods-Colorfy_Example */;
+			targetProxy = 68CA52EFF960FE9A1857005BBBE6008E /* PBXContainerItemProxy */;
+		};
+		DCACC8B6A8B448EBDC1EB67A561C86B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
+			targetProxy = 8276F9E4A48471ED64B4A6DA28CC3F72 /* PBXContainerItemProxy */;
+		};
+		E121ECEFF8E162ABE9BFA7F771413F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Colorfy-Colorfy";
+			target = C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */;
+			targetProxy = A709AE216CEA737FD90C1B8A614DC002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0991EC2649E141171EA68B512E8826EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16484FB78AAEC2D5909780D23BE10AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1A1D6E1F51B148527BD200AC4A4831EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7C947AF6407E7AD5926464C6440533 /* Pods-Colorfy_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Colorfy_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		215C62A809E9C49715A4A643407E6785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400E61D0596954AFDAEB0B4342C5F804 /* Pods-Colorfy_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Colorfy_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23FAE4464BA64CADE6A6D06C341481B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF5B962F626C8E9EAD1C1371A67F620 /* Pods-Colorfy_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Colorfy_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32EE6283F54FF9296333064E9544A2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
+				PRODUCT_MODULE_NAME = Colorfy;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F0FF903A6256C906239772CB23CE023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CBBA56F07250AA910FCFEA9047F534 /* Pods-Colorfy_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Colorfy_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D802C4921F98259566E74E4036AA267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B09E83F02CA4A25AED0210CF718388C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E45651531A704C433308B9DD52F45BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
+				PRODUCT_MODULE_NAME = Colorfy;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C901E4F9A4549FA3089ECC46ABD65D2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16484FB78AAEC2D5909780D23BE10AAE /* Debug */,
+				6D802C4921F98259566E74E4036AA267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
+				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488A41EEF8EAC262C9F9D62098695673 /* Build configuration list for PBXNativeTarget "Pods-Colorfy_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0FF903A6256C906239772CB23CE023 /* Debug */,
+				23FAE4464BA64CADE6A6D06C341481B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B4053B688AE3BDC78839A8C01A2289 /* Build configuration list for PBXNativeTarget "Colorfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45651531A704C433308B9DD52F45BD9 /* Debug */,
+				32EE6283F54FF9296333064E9544A2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0991EC2649E141171EA68B512E8826EF /* Debug */,
+				B09E83F02CA4A25AED0210CF718388C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADF855ED78EB799B915D31ECDB04D0 /* Build configuration list for PBXNativeTarget "Pods-Colorfy_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1D6E1F51B148527BD200AC4A4831EF /* Debug */,
+				215C62A809E9C49715A4A643407E6785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

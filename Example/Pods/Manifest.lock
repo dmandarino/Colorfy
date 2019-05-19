@@ -1,0 +1,27 @@
+PODS:
+  - Colorfy (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - Colorfy (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Colorfy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Colorfy: 8ac2e1c37c96abf208b906b697b9bdb507314a5d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: ec0e688800ff9578b4a03711b1704ee5aa9a3a44
+
+COCOAPODS: 1.5.3
