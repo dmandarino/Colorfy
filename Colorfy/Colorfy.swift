@@ -16,8 +16,8 @@ final public class Colorfy {
     
     private init() {}
     
-    public func configure() {
-        self.worker = ColorfyWorker(delegate: self)
+    public func configure(with url: URL) {
+        self.worker = ColorfyWorker(url: url, delegate: self)
         self.worker?.fetchColors()
     }
     
@@ -29,13 +29,13 @@ final public class Colorfy {
     
     private func getColor(named name: String) -> UIColor {
         let podBundle = Bundle(for: Colorfy.self)
-        guard let podUrl = podBundle.url(forResource: String(describing: self), withExtension: "bundle") else { return UIColor.clear }
+        guard let podUrl = podBundle.url(forResource: "Colorfy", withExtension: "bundle") else { return UIColor.clear }
         return UIColor(named: name, in: Bundle(url: podUrl), compatibleWith: nil) ?? UIColor.clear
     }
     
     private func filterColor(by name: String) -> UIColor? {
         guard let color = self.newColors?.filter({ name == $0.name }).first else { return nil }
-        return UIColor(red: color.red, green: color.green, blue: color.blue, alpha: color.alpha)
+        return UIColor(red: color.red/255, green: color.green/255, blue: color.blue/255, alpha: color.alpha)
     }
 }
 

@@ -19,13 +19,25 @@ protocol ColorfyWorkerDelegate: class {
 final class ColorfyWorker: ColorfyWorkerProtocol {
     
     weak var delegate: ColorfyWorkerDelegate?
+    private let url: URL?
     
-    init(delegate: ColorfyWorkerDelegate) {
+    init(url: URL, delegate: ColorfyWorkerDelegate) {
+        self.url = url
         self.delegate = delegate
     }
     
     func fetchColors() {
-        let color = Color(name: "ui4", red: 115, green: 10, blue: 200, alpha: 1)
-        self.delegate?.didFetch(colors: [color])
+        guard let url = self.url else { return }
+        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+            guard let data = data else { return }
+            
+            guard let apiColors = try? JSONDecoder().decode(APIColor.self, from: data) else {
+                print("Error: Couldn't decode data into APIColor")
+                return
+            }
+            
+            self.delegate?.didFetch(colors: apiColors.colors)
+        }
+        task.resume()
     }
 }
