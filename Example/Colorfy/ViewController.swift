@@ -11,16 +11,27 @@ import Colorfy
 
 class ViewController: UIViewController {
 
-    private let url = URL(string: "https://api.myjson.com/bins/u52sm")!
+    @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var label: UILabel!
+    
+//    private let url = URL(string: "https://api.myjson.com/bins/qj0p2")!
+    private let url = URL(string: "https://api.myjson.com/bins/1heb86")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Colorfy.shared.configure(with: url)
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {_ in
+            Colorfy.shared.configure(with: self.url)
+        })
         
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: false, block: {_ in
+        self.firstView.backgroundColor = Colorfy.shared.color(named: "emerald") 
+        
+        Timer.scheduledTimer(withTimeInterval: 3, repeats: true, block: {_ in
             DispatchQueue.main.async {
-                self.view.backgroundColor = Colorfy.shared.color(named: "ui4")
+                self.view.backgroundColor = Colorfy.shared.color(named: "colorUi40")
+                self.secondView.backgroundColor = Colorfy.shared.color(named: "ui7")
+                self.label.textColor = Colorfy.shared.color(named: "ui4")
             }
         })
     }

@@ -8,10 +8,10 @@
       "idiom" : "universal",
       "color" : {
         "components" : {
-          "blue" : "0.400",
+          "blue" : "0.122",
           "alpha" : "1.000",
-          "red" : "0.400",
-          "green" : "0.400"
+          "red" : "0.122",
+          "green" : "0.122"
         },
         "color-space" : "srgb"
       }
