@@ -13,11 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let colorfy = Colorfy()
 
+        Colorfy.shared.configure()
+        
         DispatchQueue.main.async {
-            self.view.backgroundColor = colorfy.color(named: "u4")
+            self.view.backgroundColor = Colorfy.shared.color(named: "ui1")
         }
         
     }

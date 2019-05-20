@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		160162CC4BCD834CDD4DB1A8B94E036D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		140069FAE633743DC261E5F603117F64 /* Colorfy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */; };
 		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		1B971DBFC15EC756A07F2372CE7155CE /* Pods-Colorfy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69602982A14A48A33204CA69D241BAD7 /* Pods-Colorfy_Tests-dummy.m */; };
-		22CD52054D1C679CA3E42201669D07EA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */; };
 		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
 		2D0266FF12F5406274CA15E20BE9CF05 /* Pods-Colorfy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A25967ACBA29DEB23AF2256B84F9C5 /* Pods-Colorfy_Example-dummy.m */; };
+		2DCFDC214A8D7495C0AD317423D6899A /* Colorfy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737BB0397C2110E90325EFBD6D68F948 /* Colorfy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3B1A64F151BDD11B17D492EDF1FB44FE /* Colorfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */; };
+		3B2C19AD87CACF921108B3D3AD7FCCE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		3D2C849AE5D1555F29DBC96042A06B52 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB086CFF4490E58CBE51D4CAE1C38C5B /* Color.swift */; };
 		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,20 +23,21 @@
 		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		56761DBB8F9E585B28A79EB0D60B4C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62BD3829FBCD55757A480B033D6C9FD1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */; };
 		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6465F71ABC225F0DEA6F925EE5418556 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E89A830A2D78F97BCE1927F2225F327 /* Colors.xcassets */; };
 		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		725E3D8C8124CACECE8386216EE98C64 /* Pods-Colorfy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DE5379099A44FA7DF4A0C4D3217A5D /* Pods-Colorfy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8CA11A7C5A4577AD3D07B2805BBCD182 /* Pods-Colorfy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0EB2410708939E4E0E8A8508046C16 /* Pods-Colorfy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		939EE02E93510071C27D4739E676FB57 /* Colorfy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */; };
 		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B91C04CBF1D4DA02DC5885AC36F0638E /* Colorfy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9101F452ACD16D0D88B58115CFE0B64 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39526B4F5895ACCA576B70B3536D4E /* UIColor.swift */; };
 		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1131BDC03D0B936FCBEA8E496D8F9C0 /* Colorfy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */; };
+		CFB28F1B10E67CDAB98EDE45F9F3A02B /* Colorfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57F1F0F48740BC3F030839044FEAE6 /* Colorfy.swift */; };
+		D03ADE882E2E65C7E62A83EEDBC329C1 /* Colorfy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E1C7AA7891F39260CA3E1CAB9CB089 /* Colorfy-dummy.m */; };
+		D98D61EF4E634FD90F660415AF0B16F7 /* ColorfyWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8CAFCB57C66EB84A3F0EFFDB6B1290 /* ColorfyWorker.swift */; };
 		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
@@ -44,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		42C9939DB8B745B117E0543C6858F9A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3029554E053DB43C3B3654E1A57A1C1;
+			remoteInfo = "Colorfy-Colorfy";
+		};
 		68CA52EFF960FE9A1857005BBBE6008E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -58,30 +67,22 @@
 			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		A709AE216CEA737FD90C1B8A614DC002 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C01F31B368CB2E55025E045436DAD531;
-			remoteInfo = "Colorfy-Colorfy";
-		};
 		ED12B0F7CE703B1ECE63B4ED21E4EDC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C4BE3361A943AC2DE317D577E53E4CE;
+			remoteGlobalIDString = A348050044A3F65D934BEC7FBE1F992B;
 			remoteInfo = Colorfy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = Colorfy/Colors.xcassets; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		22BE25D9F88C04065D8863DF297DB6A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27C6A7E9D6865592601939F18F66D165 /* ResourceBundle-Colorfy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Colorfy-Info.plist"; sourceTree = "<group>"; };
+		1CDDE2D222327605507EA2193C1E5173 /* ResourceBundle-Colorfy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Colorfy-Info.plist"; sourceTree = "<group>"; };
+		2125E8A2E3858DB61397441D9F52C390 /* Colorfy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Colorfy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26E1C7AA7891F39260CA3E1CAB9CB089 /* Colorfy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colorfy-dummy.m"; sourceTree = "<group>"; };
 		28CBBA56F07250AA910FCFEA9047F534 /* Pods-Colorfy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A0EB2410708939E4E0E8A8508046C16 /* Pods-Colorfy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colorfy_Example-umbrella.h"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -92,16 +93,22 @@
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		3E0CEF7E6C935F46C6D3DC1FCAB810F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400E61D0596954AFDAEB0B4342C5F804 /* Pods-Colorfy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		419DEA9A435E3AB7E4025C56F439CE46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4BE03FB963DED264439A925826D0446B /* Colorfy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-prefix.pch"; sourceTree = "<group>"; };
+		4E89A830A2D78F97BCE1927F2225F327 /* Colors.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = Colorfy/Colors.xcassets; sourceTree = "<group>"; };
+		54F9F215C70C4AD86E55822D5D892E2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		64BA37EFE45821A8D6DBB8C509DA7FE3 /* Pods-Colorfy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colorfy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69602982A14A48A33204CA69D241BAD7 /* Pods-Colorfy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Colorfy_Tests-dummy.m"; sourceTree = "<group>"; };
-		70F57316081EC01135ECDF6896E328F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colorfy.xcconfig; sourceTree = "<group>"; };
 		72B86B60D8DB00E2DD9EFF0D17BA6A06 /* Pods-Colorfy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Colorfy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colorfy-dummy.m"; sourceTree = "<group>"; };
+		737BB0397C2110E90325EFBD6D68F948 /* Colorfy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-umbrella.h"; sourceTree = "<group>"; };
 		78D247BC2C3A01372800B9C576E4B45A /* Pods-Colorfy_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Example-resources.sh"; sourceTree = "<group>"; };
+		7A39526B4F5895ACCA576B70B3536D4E /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7A57F1F0F48740BC3F030839044FEAE6 /* Colorfy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Colorfy.swift; path = Colorfy/Colorfy.swift; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7ED9FA82BD3435E1885B381885E594AB /* Pods-Colorfy_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -109,14 +116,13 @@
 		80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colorfy.framework; path = Colorfy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8DF2075DB1B158AC72B89D1A17FD5083 /* Pods-Colorfy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colorfy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8FFCFD9B3F94CC3A845678EBCED7A2B4 /* Colorfy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colorfy.modulemap; sourceTree = "<group>"; };
 		924EBF7AC143AD65987A94D8AA1051F0 /* Pods-Colorfy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Colorfy_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8CAFCB57C66EB84A3F0EFFDB6B1290 /* ColorfyWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorfyWorker.swift; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A6D285C7B24E5A59ACD03561582B00F9 /* Pods-Colorfy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Colorfy_Tests.modulemap"; sourceTree = "<group>"; };
 		AA7C947AF6407E7AD5926464C6440533 /* Pods-Colorfy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Colorfy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0E4FF9161EAA91E8017C61A53CDD927 /* Pods_Colorfy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Colorfy_Example.framework; path = "Pods-Colorfy_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2AAE8FD6AE52367048FBDC34182BCBB /* Colorfy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Colorfy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3005461CA492B6D01D8CD9ACF9D277F /* Pods_Colorfy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Colorfy_Tests.framework; path = "Pods-Colorfy_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DE5379099A44FA7DF4A0C4D3217A5D /* Pods-Colorfy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Colorfy_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
@@ -124,20 +130,18 @@
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BC0ADF365063DDA1795D91976B990FFF /* Colorfy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Colorfy.bundle; path = "Colorfy-Colorfy.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD63A4D57917A01CBF84B62BFE7A80B6 /* Colorfy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-prefix.pch"; sourceTree = "<group>"; };
-		D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Colorfy.swift; path = Colorfy/Colorfy.swift; sourceTree = "<group>"; };
+		CC802C0350841B101C1F2DE227A613CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DC1B8A4CC48F29A618BE6DD70B2443CD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E74F5F63EBBACD018D4604E5471CBDB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6223F58C4C585A964D40F71AF100E9F /* Colorfy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colorfy.modulemap; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colorfy-umbrella.h"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F4A07205AB2FC8A6A2F429C0F17ACFC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB086CFF4490E58CBE51D4CAE1C38C5B /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FC9C36425C7E6FB388D8CCA7B7BD695B /* Pods-Colorfy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Colorfy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colorfy.xcconfig; sourceTree = "<group>"; };
 		FEDDDE640724A3095E93E26B98719491 /* Pods-Colorfy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Colorfy_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,18 +165,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF8D6622F661D5D58F9D66A59E45A019 /* Frameworks */ = {
+		A40FD474DEEE00D537BCD9A5F9A65B9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D81E9F992363885D1FAAD31AF2A068AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				160162CC4BCD834CDD4DB1A8B94E036D /* Foundation.framework in Frameworks */,
+				3B2C19AD87CACF921108B3D3AD7FCCE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				56761DBB8F9E585B28A79EB0D60B4C20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5F777E87D08E369E68D45DC8677255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +222,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		341D5F19204D96C161BE6F30E7DA74A6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FB086CFF4490E58CBE51D4CAE1C38C5B /* Color.swift */,
+			);
+			name = Entity;
+			path = Colorfy/Entity;
 			sourceTree = "<group>";
 		};
 		3A94911FB6ABE96195CF6FC0FE6E441A /* Pods-Colorfy_Example */ = {
@@ -279,11 +292,26 @@
 			path = "Target Support Files/Pods-Colorfy_Tests";
 			sourceTree = "<group>";
 		};
+		73014EB86B61EF3D8AB8CC1538AE5F77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6223F58C4C585A964D40F71AF100E9F /* Colorfy.modulemap */,
+				71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */,
+				26E1C7AA7891F39260CA3E1CAB9CB089 /* Colorfy-dummy.m */,
+				4BE03FB963DED264439A925826D0446B /* Colorfy-prefix.pch */,
+				737BB0397C2110E90325EFBD6D68F948 /* Colorfy-umbrella.h */,
+				CC802C0350841B101C1F2DE227A613CB /* Info.plist */,
+				1CDDE2D222327605507EA2193C1E5173 /* ResourceBundle-Colorfy-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Colorfy";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B1603709AE9B757A6469C5AF68BA3D45 /* Development Pods */,
+				E4EAEE576FE90937F695C174EFCE31E4 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				5337C4FEC97F19B715182B74999C11DD /* Products */,
@@ -291,40 +319,30 @@
 			);
 			sourceTree = "<group>";
 		};
-		7FA703FABB0722C42A6D4C9D75EB6E66 /* Colorfy */ = {
+		82AF8F5063EEB58F5EE98924954AD199 /* Worker */ = {
 			isa = PBXGroup;
 			children = (
-				D21B05F7B96BF45B5EA51740CAF4A3FE /* Colorfy.swift */,
-				D4208C7DDADC368AA07CAC7B5F36AF7E /* Extensions */,
-				EC35023CF5588DFAC18104070B4F95B6 /* Pod */,
-				9067AA2A57C6F143918A852A372379E4 /* Resources */,
-				8FC2A186F17C70609248890CFF6D9827 /* Support Files */,
+				9E8CAFCB57C66EB84A3F0EFFDB6B1290 /* ColorfyWorker.swift */,
 			);
-			name = Colorfy;
-			path = ../..;
+			name = Worker;
+			path = Colorfy/Worker;
 			sourceTree = "<group>";
 		};
-		8FC2A186F17C70609248890CFF6D9827 /* Support Files */ = {
+		8A1FD3A4F8EC00CFE9EBE6897D262C6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8FFCFD9B3F94CC3A845678EBCED7A2B4 /* Colorfy.modulemap */,
-				FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */,
-				73C04246AA72E9C67D7952C5F2FFCE03 /* Colorfy-dummy.m */,
-				CD63A4D57917A01CBF84B62BFE7A80B6 /* Colorfy-prefix.pch */,
-				EE89957931E5986E9513D8AED123BE65 /* Colorfy-umbrella.h */,
-				22BE25D9F88C04065D8863DF297DB6A4 /* Info.plist */,
-				27C6A7E9D6865592601939F18F66D165 /* ResourceBundle-Colorfy-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Colorfy";
-			sourceTree = "<group>";
-		};
-		9067AA2A57C6F143918A852A372379E4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				07B5A025D2C5D6CA175BB8E99287D242 /* Colors.xcassets */,
+				4E89A830A2D78F97BCE1927F2225F327 /* Colors.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E52627432984EF5F6F526F718E1DDE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A39526B4F5895ACCA576B70B3536D4E /* UIColor.swift */,
+			);
+			name = Extensions;
+			path = Colorfy/Extensions;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -335,12 +353,19 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		B1603709AE9B757A6469C5AF68BA3D45 /* Development Pods */ = {
+		ACC1B8C7B73D3A4D649CE4016CEC3C04 /* Colorfy */ = {
 			isa = PBXGroup;
 			children = (
-				7FA703FABB0722C42A6D4C9D75EB6E66 /* Colorfy */,
+				7A57F1F0F48740BC3F030839044FEAE6 /* Colorfy.swift */,
+				341D5F19204D96C161BE6F30E7DA74A6 /* Entity */,
+				8E52627432984EF5F6F526F718E1DDE3 /* Extensions */,
+				EDD9064FDC926D723B2FAE373759AAA6 /* Pod */,
+				8A1FD3A4F8EC00CFE9EBE6897D262C6A /* Resources */,
+				73014EB86B61EF3D8AB8CC1538AE5F77 /* Support Files */,
+				82AF8F5063EEB58F5EE98924954AD199 /* Worker */,
 			);
-			name = "Development Pods";
+			name = Colorfy;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C88BFDE527B28701EEC61784A945DD28 /* Targets Support Files */ = {
@@ -352,21 +377,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D4208C7DDADC368AA07CAC7B5F36AF7E /* Extensions */ = {
+		E4EAEE576FE90937F695C174EFCE31E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				193F0F8EBF852F4F724AF20C346A1C82 /* UIColor.swift */,
+				ACC1B8C7B73D3A4D649CE4016CEC3C04 /* Colorfy */,
 			);
-			name = Extensions;
-			path = Colorfy/Extensions;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EC35023CF5588DFAC18104070B4F95B6 /* Pod */ = {
+		EDD9064FDC926D723B2FAE373759AAA6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B2AAE8FD6AE52367048FBDC34182BCBB /* Colorfy.podspec */,
-				70F57316081EC01135ECDF6896E328F8 /* LICENSE */,
-				E74F5F63EBBACD018D4604E5471CBDB6 /* README.md */,
+				2125E8A2E3858DB61397441D9F52C390 /* Colorfy.podspec */,
+				54F9F215C70C4AD86E55822D5D892E2C /* LICENSE */,
+				419DEA9A435E3AB7E4025C56F439CE46 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -403,14 +427,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		42987DF797775BA18E2A6E9C35C43A2C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B91C04CBF1D4DA02DC5885AC36F0638E /* Colorfy-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,6 +458,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3795523AF2BFE101E4262DCB3D13833 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCFDC214A8D7495C0AD317423D6899A /* Colorfy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -465,25 +489,6 @@
 			productReference = B3005461CA492B6D01D8CD9ACF9D277F /* Pods_Colorfy_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80B4053B688AE3BDC78839A8C01A2289 /* Build configuration list for PBXNativeTarget "Colorfy" */;
-			buildPhases = (
-				42987DF797775BA18E2A6E9C35C43A2C /* Headers */,
-				65CB77FCF2B443F2C4CA6AFCEC6893CB /* Sources */,
-				D81E9F992363885D1FAAD31AF2A068AD /* Frameworks */,
-				48613EB9478A11DAC3445A619F335FED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E121ECEFF8E162ABE9BFA7F771413F95 /* PBXTargetDependency */,
-			);
-			name = Colorfy;
-			productName = Colorfy;
-			productReference = 80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -500,6 +505,25 @@
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
 			productReference = DC1B8A4CC48F29A618BE6DD70B2443CD /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A348050044A3F65D934BEC7FBE1F992B /* Colorfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A598D77B9A71278910FA47F99B6203C /* Build configuration list for PBXNativeTarget "Colorfy" */;
+			buildPhases = (
+				F3795523AF2BFE101E4262DCB3D13833 /* Headers */,
+				C08C4E649293FFC67C6AF875CEF2A9E5 /* Sources */,
+				A40FD474DEEE00D537BCD9A5F9A65B9D /* Frameworks */,
+				E6B13D798FD4C7AB9CA6A6CF09054566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB33BB451C7C29D9733E097475268BD /* PBXTargetDependency */,
+			);
+			name = Colorfy;
+			productName = Colorfy;
+			productReference = 80B44D57E9F3BB13173A708DCFBEEC1A /* Colorfy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AAC1DD635F6F91BF6F745ADA1526A60C /* Pods-Colorfy_Example */ = {
@@ -521,13 +545,13 @@
 			productReference = B0E4FF9161EAA91E8017C61A53CDD927 /* Pods_Colorfy_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */ = {
+		D3029554E053DB43C3B3654E1A57A1C1 /* Colorfy-Colorfy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C901E4F9A4549FA3089ECC46ABD65D2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */;
+			buildConfigurationList = 51E94538DE9CC2363C3BEA0BA4BE1CD2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */;
 			buildPhases = (
-				FC22B5D2C55453BB7340D2ABA3FB7CBA /* Sources */,
-				BF8D6622F661D5D58F9D66A59E45A019 /* Frameworks */,
-				ADC43872B3BBAC280CAC0C33C8E1420D /* Resources */,
+				6C16BA9FCF1C971233B093A20DD230DA /* Sources */,
+				FB5F777E87D08E369E68D45DC8677255 /* Frameworks */,
+				95D8583184AFCBE16F3D6BFD2176D098 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -559,8 +583,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */,
-				C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */,
+				A348050044A3F65D934BEC7FBE1F992B /* Colorfy */,
+				D3029554E053DB43C3B3654E1A57A1C1 /* Colorfy-Colorfy */,
 				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
 				AAC1DD635F6F91BF6F745ADA1526A60C /* Pods-Colorfy_Example */,
 				130C9D320FE033DF1AB527002C7720FA /* Pods-Colorfy_Tests */,
@@ -583,11 +607,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48613EB9478A11DAC3445A619F335FED /* Resources */ = {
+		95D8583184AFCBE16F3D6BFD2176D098 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1131BDC03D0B936FCBEA8E496D8F9C0 /* Colorfy.bundle in Resources */,
+				6465F71ABC225F0DEA6F925EE5418556 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,11 +622,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADC43872B3BBAC280CAC0C33C8E1420D /* Resources */ = {
+		E6B13D798FD4C7AB9CA6A6CF09054566 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CD52054D1C679CA3E42201669D07EA /* Colors.xcassets in Resources */,
+				140069FAE633743DC261E5F603117F64 /* Colorfy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,13 +657,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65CB77FCF2B443F2C4CA6AFCEC6893CB /* Sources */ = {
+		6C16BA9FCF1C971233B093A20DD230DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939EE02E93510071C27D4739E676FB57 /* Colorfy-dummy.m in Sources */,
-				3B1A64F151BDD11B17D492EDF1FB44FE /* Colorfy.swift in Sources */,
-				62BD3829FBCD55757A480B033D6C9FD1 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,10 +672,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC22B5D2C55453BB7340D2ABA3FB7CBA /* Sources */ = {
+		C08C4E649293FFC67C6AF875CEF2A9E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2C849AE5D1555F29DBC96042A06B52 /* Color.swift in Sources */,
+				D03ADE882E2E65C7E62A83EEDBC329C1 /* Colorfy-dummy.m in Sources */,
+				CFB28F1B10E67CDAB98EDE45F9F3A02B /* Colorfy.swift in Sources */,
+				D98D61EF4E634FD90F660415AF0B16F7 /* ColorfyWorker.swift in Sources */,
+				B9101F452ACD16D0D88B58115CFE0B64 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +690,7 @@
 		2131499DEFEBA280FFF826C556C66463 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Colorfy;
-			target = 8C4BE3361A943AC2DE317D577E53E4CE /* Colorfy */;
+			target = A348050044A3F65D934BEC7FBE1F992B /* Colorfy */;
 			targetProxy = ED12B0F7CE703B1ECE63B4ED21E4EDC7 /* PBXContainerItemProxy */;
 		};
 		3E8DCBCC1F86F06793D1961760DE891C /* PBXTargetDependency */ = {
@@ -679,15 +705,50 @@
 			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
 			targetProxy = 8276F9E4A48471ED64B4A6DA28CC3F72 /* PBXContainerItemProxy */;
 		};
-		E121ECEFF8E162ABE9BFA7F771413F95 /* PBXTargetDependency */ = {
+		FFB33BB451C7C29D9733E097475268BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Colorfy-Colorfy";
-			target = C01F31B368CB2E55025E045436DAD531 /* Colorfy-Colorfy */;
-			targetProxy = A709AE216CEA737FD90C1B8A614DC002 /* PBXContainerItemProxy */;
+			target = D3029554E053DB43C3B3654E1A57A1C1 /* Colorfy-Colorfy */;
+			targetProxy = 42C9939DB8B745B117E0543C6858F9A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0080EFFA0F92D2AC78A50D336A845F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
+				PRODUCT_MODULE_NAME = Colorfy;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0991EC2649E141171EA68B512E8826EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -717,22 +778,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		16484FB78AAEC2D5909780D23BE10AAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
-				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = Colorfy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -766,6 +811,55 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BF6FCB333B95F5C08C1229EB77B572E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1F14A5CDC4D1DBDC7AD55F0203222A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
+				PRODUCT_MODULE_NAME = Colorfy;
+				PRODUCT_NAME = Colorfy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -846,41 +940,6 @@
 			};
 			name = Release;
 		};
-		32EE6283F54FF9296333064E9544A2E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
-				PRODUCT_MODULE_NAME = Colorfy;
-				PRODUCT_NAME = Colorfy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4F0FF903A6256C906239772CB23CE023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28CBBA56F07250AA910FCFEA9047F534 /* Pods-Colorfy_Example.debug.xcconfig */;
@@ -916,22 +975,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6D802C4921F98259566E74E4036AA267 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
-				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = Colorfy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1090,51 +1133,25 @@
 			};
 			name = Release;
 		};
-		E45651531A704C433308B9DD52F45BD9 /* Debug */ = {
+		DBC51C55FA5D9EE13D47438716586EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDDC68384883E22A0F394F8C98850250 /* Colorfy.xcconfig */;
+			baseConfigurationReference = 71D4FCDC74A8D538A121F9327D5584CC /* Colorfy.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Colorfy/Colorfy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Colorfy/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Colorfy";
+				INFOPLIST_FILE = "Target Support Files/Colorfy/ResourceBundle-Colorfy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Colorfy/Colorfy.modulemap";
-				PRODUCT_MODULE_NAME = Colorfy;
 				PRODUCT_NAME = Colorfy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C901E4F9A4549FA3089ECC46ABD65D2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16484FB78AAEC2D5909780D23BE10AAE /* Debug */,
-				6D802C4921F98259566E74E4036AA267 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1153,11 +1170,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80B4053B688AE3BDC78839A8C01A2289 /* Build configuration list for PBXNativeTarget "Colorfy" */ = {
+		51E94538DE9CC2363C3BEA0BA4BE1CD2 /* Build configuration list for PBXNativeTarget "Colorfy-Colorfy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E45651531A704C433308B9DD52F45BD9 /* Debug */,
-				32EE6283F54FF9296333064E9544A2E3 /* Release */,
+				1BF6FCB333B95F5C08C1229EB77B572E /* Debug */,
+				DBC51C55FA5D9EE13D47438716586EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A598D77B9A71278910FA47F99B6203C /* Build configuration list for PBXNativeTarget "Colorfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F14A5CDC4D1DBDC7AD55F0203222A2B /* Debug */,
+				0080EFFA0F92D2AC78A50D336A845F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

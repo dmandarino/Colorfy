@@ -8,12 +8,14 @@
 import Foundation
 
 struct Color {
-    var red: Float
-    var green: Float
-    var blue: Float
-    var alpha: Float
+    var name: String
+    var red: CGFloat
+    var green: CGFloat
+    var blue: CGFloat
+    var alpha: CGFloat
     
-    init(red: Float, green: Float, blue: Float, alpha: Float) {
+    init(name: String, red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
+        self.name = name
         self.red = red/255
         self.green = green/255
         self.blue = blue/255
