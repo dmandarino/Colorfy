@@ -291,7 +291,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Colorfy/Colorfy.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colorfy_Example/Pods-Colorfy_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5283535A33D90E0E16183321 /* [CP] Check Pods Manifest.lock */ = {
@@ -352,7 +352,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -363,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colorfy_Tests/Pods-Colorfy_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

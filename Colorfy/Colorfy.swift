@@ -35,7 +35,7 @@ final public class Colorfy {
     
     private func filterColor(by name: String) -> UIColor? {
         guard let color = self.newColors?.filter({ name == $0.name }).first else { return nil }
-        return UIColor(red: color.red/255, green: color.green/255, blue: color.blue/255, alpha: color.alpha)
+        return UIColor(hex: color.hex)
     }
 }
 
