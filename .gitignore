@@ -2,3 +2,4 @@
 **/xcuserdata/
 **/Colorfy.xcworkspace/
 Example/Pods/
+**.DS_Store
