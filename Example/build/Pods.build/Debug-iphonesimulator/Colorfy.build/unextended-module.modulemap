@@ -1,0 +1,10 @@
+framework module Colorfy {
+  umbrella header "Colorfy-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Colorfy.__Swift {
+    exclude header "Colorfy-Swift.h"
+}

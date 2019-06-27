@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/jonathan.bijos/Projects/Colorfy/Example/build/Debug-iphonesimulator/Colorfy/Colorfy.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/jonathan.bijos/Projects/Colorfy/Example/build/Pods.build/Debug-iphonesimulator/Colorfy.build/unextended-module.modulemap",
+    }]
+  }]
+}

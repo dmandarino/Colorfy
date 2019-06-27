@@ -1,0 +1,11 @@
+framework module Colorfy {
+  umbrella header "Colorfy-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Colorfy.Swift {
+    header "Colorfy-Swift.h"
+    requires objc
+}

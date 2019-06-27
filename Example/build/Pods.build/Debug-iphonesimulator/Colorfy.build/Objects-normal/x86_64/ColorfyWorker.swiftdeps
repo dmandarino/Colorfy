@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColorfyWorkerProtocol"
+- "ColorfyWorkerDelegate"
+- "ColorfyWorker"
+provides-nominal:
+- "7Colorfy0A14WorkerProtocolP"
+- "7Colorfy0A14WorkerDelegateP"
+- "7Colorfy0A6WorkerC"
+provides-member:
+- ["7Colorfy0A14WorkerProtocolP", ""]
+- ["7Colorfy0A14WorkerDelegateP", ""]
+- ["7Colorfy0A6WorkerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "APIColor"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Color"
+- "ColorfyWorker"
+- "ColorfyWorkerDelegate"
+- "ColorfyWorkerProtocol"
+- !private "JSONDecoder"
+- "StringLiteralType"
+- "URL"
+- !private "URLSession"
+- !private "print"
+depends-member:
+- !private ["7Colorfy8APIColorV", "colors"]
+- !private ["7Colorfy8APIColorV", "deinit"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["7Colorfy0A6WorkerC", "APIColor"]
+- ["7Colorfy0A6WorkerC", "ColorfyWorkerDelegate"]
+- !private ["7Colorfy0A6WorkerC", "JSONDecoder"]
+- ["7Colorfy0A6WorkerC", "URL"]
+- !private ["7Colorfy0A6WorkerC", "URLSession"]
+- ["7Colorfy0A6WorkerC", "deinit"]
+- ["7Colorfy0A6WorkerC", "delegate"]
+- ["7Colorfy0A6WorkerC", "fetchColors"]
+- ["7Colorfy0A6WorkerC", "init"]
+- !private ["7Colorfy0A6WorkerC", "print"]
+- !private ["7Colorfy0A6WorkerC", "url"]
+- ["7Colorfy0A14WorkerDelegateP", "Color"]
+- ["7Colorfy0A14WorkerDelegateP", "didFetch"]
+- !private ["7Colorfy0A14WorkerProtocolP", "APIColor"]
+- !private ["7Colorfy0A14WorkerProtocolP", "JSONDecoder"]
+- !private ["7Colorfy0A14WorkerProtocolP", "URLSession"]
+- ["7Colorfy0A14WorkerProtocolP", ""]
+- !private ["7Colorfy0A14WorkerProtocolP", "delegate"]
+- ["7Colorfy0A14WorkerProtocolP", "fetchColors"]
+- !private ["7Colorfy0A14WorkerProtocolP", "print"]
+- !private ["7Colorfy0A14WorkerProtocolP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["Se", "colors"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+depends-nominal:
+- !private "7Colorfy8APIColorV"
+- !private "s7CVarArgP"
+- "7Colorfy0A6WorkerC"
+- "7Colorfy0A14WorkerDelegateP"
+- "7Colorfy0A14WorkerProtocolP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SQ"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSProgressReportingP"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jonathan.bijos/Projects/Colorfy/Example/Pods/Target Support Files/Colorfy/Colorfy-umbrella.h"
+- "/Users/jonathan.bijos/Projects/Colorfy/Example/build/Pods.build/Debug-iphonesimulator/Colorfy.build/unextended-module.modulemap"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9841e22bfdafed927e4d177561b0bcd2"

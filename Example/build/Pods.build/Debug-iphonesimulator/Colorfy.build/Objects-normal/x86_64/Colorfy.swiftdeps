@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Colorfy"
+provides-nominal:
+- "7ColorfyAAC"
+provides-member:
+- ["7ColorfyAAC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "Color"
+- "Colorfy"
+- !private "ColorfyWorker"
+- "ColorfyWorkerDelegate"
+- "ColorfyWorkerProtocol"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIColor"
+- "URL"
+depends-member:
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSameColor"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["7Colorfy5ColorV", "alpha"]
+- !private ["7Colorfy5ColorV", "blue"]
+- !private ["7Colorfy5ColorV", "green"]
+- !private ["7Colorfy5ColorV", "name"]
+- !private ["7Colorfy5ColorV", "red"]
+- !private ["7ColorfyAAC", "Bundle"]
+- ["7ColorfyAAC", "Color"]
+- ["7ColorfyAAC", "Colorfy"]
+- !private ["7ColorfyAAC", "ColorfyWorker"]
+- ["7ColorfyAAC", "ColorfyWorkerProtocol"]
+- ["7ColorfyAAC", "String"]
+- ["7ColorfyAAC", "UIColor"]
+- ["7ColorfyAAC", "URL"]
+- ["7ColorfyAAC", "color"]
+- ["7ColorfyAAC", "configure"]
+- ["7ColorfyAAC", "deinit"]
+- ["7ColorfyAAC", "didFetch"]
+- !private ["7ColorfyAAC", "filterColor"]
+- !private ["7ColorfyAAC", "getColor"]
+- ["7ColorfyAAC", "init"]
+- !private ["7ColorfyAAC", "newColors"]
+- ["7ColorfyAAC", "shared"]
+- !private ["7ColorfyAAC", "worker"]
+- !private ["7Colorfy0A6WorkerC", "deinit"]
+- !private ["7Colorfy0A6WorkerC", "init"]
+- !private ["7Colorfy0A14WorkerDelegateP", "Bundle"]
+- ["7Colorfy0A14WorkerDelegateP", "Colorfy"]
+- !private ["7Colorfy0A14WorkerDelegateP", "ColorfyWorker"]
+- !private ["7Colorfy0A14WorkerDelegateP", "UIColor"]
+- ["7Colorfy0A14WorkerDelegateP", ""]
+- ["7Colorfy0A14WorkerDelegateP", "didFetch"]
+- !private ["7Colorfy0A14WorkerDelegateP", "filterColor"]
+- !private ["7Colorfy0A14WorkerDelegateP", "getColor"]
+- ["7Colorfy0A14WorkerDelegateP", "init"]
+- !private ["7Colorfy0A14WorkerDelegateP", "newColors"]
+- !private ["7Colorfy0A14WorkerDelegateP", "worker"]
+- !private ["7Colorfy0A14WorkerProtocolP", "fetchColors"]
+- !private ["7Colorfy0A14WorkerProtocolP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSameColor"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSameColor"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "alpha"]
+- !private ["Se", "blue"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "green"]
+- !private ["Se", "name"]
+- !private ["Se", "red"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSameColor"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["SH", "clear"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "isSameColor"]
+- !private ["SH", "url"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isSameColor"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isSameColor"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isSameColor"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isSameColor"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSameColor"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isSameColor"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isSameColor"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "isSameColor"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "isSameColor"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSameColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "7Colorfy5ColorV"
+- "7ColorfyAAC"
+- !private "7Colorfy0A6WorkerC"
+- "7Colorfy0A14WorkerDelegateP"
+- !private "7Colorfy0A14WorkerProtocolP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "So7UIColorC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jonathan.bijos/Projects/Colorfy/Example/Pods/Target Support Files/Colorfy/Colorfy-umbrella.h"
+- "/Users/jonathan.bijos/Projects/Colorfy/Example/build/Pods.build/Debug-iphonesimulator/Colorfy.build/unextended-module.modulemap"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode Latest GM.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "90cbc252570587c840a0d38ce57474c0"
